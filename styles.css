@@ -6,7 +6,7 @@ body {
 h3 {
   font-family: 'Press Start 2P', cursive;
   font-weight: 100;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   margin: 5% 15% 5%;
   color: #FEF2BF;
   letter-spacing: 2px;
@@ -16,7 +16,7 @@ h4 {
   font-family: 'Press Start 2P', cursive;
   font-weight: 100;
   font-size: 1.8rem;
-  margin: 5% 15% 5%;
+  margin: 5% 10% 5%;
   color: #FEF2BF;
 }
 h6 {
@@ -51,7 +51,7 @@ hr {
 
 .container {
   display: block;
-  width: 50%;
+  width: 80%;
   margin: auto auto 50px;
 }
 
