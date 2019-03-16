@@ -12,7 +12,7 @@ var level = 0;
 // CRITICAL FUNCTIONS
 
 // Game start
-$(window).keydown(function() {
+$("#start").click(function() {
   if (!started) {
     $("#level-title").html("Level " + level);
     nextSequence();
@@ -20,7 +20,7 @@ $(window).keydown(function() {
   }
 });
 
-$(".btn").click("keydown", function() {
+$(".btn:not(#start)").click("keydown", function() {
   var userChosenColour = $(this).attr("id");
   userClickedPattern.push(userChosenColour);
   playSound(userChosenColour);
@@ -37,7 +37,7 @@ function checkAnswer(currentLevel) {
     }
   } else {
     $("body").addClass("game-over");
-    $("#level-title").html("Game Over, Press Any Key to Restart");
+    $("#level-title").html("Game Over, Press the Start Button to Try Again");
     playSound("wrong");
     setTimeout(function() {
       $("body").removeClass("game-over");

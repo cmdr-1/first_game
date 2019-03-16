@@ -12,9 +12,16 @@ h3 {
   letter-spacing: 2px;
 }
 
+h4 {
+  font-family: 'Press Start 2P', cursive;
+  font-weight: 100;
+  font-size: 1.8rem;
+  margin: 5% 15% 5%;
+  color: #FEF2BF;
+}
 h6 {
   font-family: 'Press Start 2P', cursive;
-  font-weight: 50;
+  font-weight: lighter;
   font-size: 0.5rem;
   margin: 50% 15% 5%;
   color: #FEF2BF;
@@ -31,6 +38,15 @@ hr {
   font-family: 'Press Start 2P', cursive;
   margin: 5%;
   color: #FEF2BF;
+}
+
+#start {
+  margin: 50px;
+  display: inline-block;
+  height: auto;
+  width: 300px;
+  border: 10px solid black;
+  border-radius: 20%;
 }
 
 .container {
