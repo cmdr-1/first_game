@@ -63,7 +63,9 @@ function nextSequence() {
 
 function playSound(name) {
   var audio = new Audio("sounds/" + name + ".mp3");
+  audio.volume = 0.15;
   audio.play();
+
 }
 
 function animatePress(currentColour) {
