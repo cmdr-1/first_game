@@ -6,10 +6,11 @@ body {
 h3 {
   font-family: 'Press Start 2P', cursive;
   font-weight: lighter;
-  font-size: 1rem;
+  font-size: 1.2rem;
   margin: 5% 15% 5%;
   color: #FEF2BF;
   letter-spacing: 3px;
+  line-height: 1.5;
 }
 
 h4 {
@@ -19,12 +20,14 @@ h4 {
   margin: 5% 10% 5%;
   color: #FEF2BF;
 }
-h6 {
+h5 {
   font-family: 'Press Start 2P', cursive;
   font-weight: lighter;
-  font-size: 0.5rem;
-  margin: 50% 15% 5%;
+  font-size: 0.7rem;
+  margin: 5% 15% 5%;
   color: #FEF2BF;
+  line-height: 2;
+
 }
 
 hr {
