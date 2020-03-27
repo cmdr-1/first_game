@@ -1,15 +1,11 @@
 //Array of the colours in the Simon Game
 var buttonColours = ["red", "blue", "green", "yellow"];
-
 var gamePattern = [];
-
 var userClickedPattern = [];
 
 // Game state at the begin (has not started and at level 0
 var started = false;
 var level = 0;
-
-// CRITICAL FUNCTIONS
 
 // Game start
 $("#start").click(function() {
@@ -57,7 +53,7 @@ function nextSequence() {
   var chooseRandomColour = buttonColours[randomNumber];
   gamePattern.push(chooseRandomColour);
 
-  $("#" + chooseRandomColour).fadeOut(300).fadeIn(300).fadeOut(300).fadeIn(300);
+  $("#" + chooseRandomColour).fadeOut(300).fadeIn(300);
   playSound(chooseRandomColour);
 }
 
